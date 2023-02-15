@@ -15,5 +15,5 @@ function init(value) {
             conRes++
         }
     }
-    document.write(`total vowels===> ${VowRes} and total consonants===> ${conRes}` )
+    document.write(`total vowels===> ${VowRes} & total consonants===> ${conRes}` )
 }

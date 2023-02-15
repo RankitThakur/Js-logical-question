@@ -10,4 +10,6 @@ y = x - y;
 x = x - y;   
 
 
-console.log(`'x===>'${x}, 'y===> ${y}` )
+x, y = y, x
+
+console.log(`'x===>'${x}, 'y===> ${y}` )    
