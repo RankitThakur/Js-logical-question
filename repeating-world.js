@@ -5,6 +5,7 @@ let count = 0;
 let result;
 
 
+console.group('test');
 
 for(let i = 0; i < text.length; i++){  
     debugger;  
@@ -15,9 +16,8 @@ for(let i = 0; i < text.length; i++){
         }     
     }    
 }
+console.groupEnd('test');
 
-console.log(count)
-console.log(result)
-
+////not completed 
 
 
